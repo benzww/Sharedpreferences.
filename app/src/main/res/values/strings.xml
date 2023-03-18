@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">shared preferences</string>
+    <string name="I1">Type something here</string>
+    <string name="I2">This text will change</string>
+    <string name="I3">save</string>
+    <string name="I4">Switch</string>
+</resources>

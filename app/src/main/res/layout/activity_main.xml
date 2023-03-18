@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="357dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="300sp"
+        android:hint="@string/I1"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="400sp"
+        android:text="@string/I2"
+        android:layout_marginEnd="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#38D1E4"
+        android:text="@string/I3"
+        android:textColor="@color/black" />
+
+    <Switch
+        android:id="@+id/password_toggle"
+        android:layout_width="142dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/button"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80sp"
+        android:text="@string/I4"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</RelativeLayout>
